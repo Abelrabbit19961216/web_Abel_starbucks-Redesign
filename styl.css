@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 微軟正黑體;
+}
+nav{
+    display: grid;
+    grid-template-columns: 20% 70% 10%;
+    background: rgba(31, 100, 57, 0.445);
+    box-shadow: 0 10px 10px 
+    rgba(201, 115, 3, 0.281);
+    padding: 20px 30px;
+    align-items: center;
+}
+#logo img{
+    width: 50px;
+}
+#link a{
+    padding: 0px 35px;
+    text-decoration: none;
+}
